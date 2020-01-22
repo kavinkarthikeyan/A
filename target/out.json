@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 95500,
+              "duration": 87300,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2361851400,
+              "duration": 12861635400,
               "status": "passed"
             },
             "line": 5,
@@ -39,7 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 11268629600,
+              "duration": 20622524600,
               "status": "passed"
             },
             "match": {
@@ -54,7 +54,7 @@
         "after": [
           {
             "result": {
-              "duration": 696019100,
+              "duration": 608779700,
               "status": "passed"
             },
             "match": {
@@ -67,7 +67,7 @@
         "steps": [
           {
             "result": {
-              "duration": 409939300,
+              "duration": 151745300,
               "status": "passed"
             },
             "line": 9,
@@ -89,8 +89,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50109}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 98406f8c634b518a0573f877ad206bfb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat com.stepdef.StepDefinition.the_user_clicks_the_loginin_button(StepDefinition.java:38)\r\n\tat ✽.the user clicks the loginin button(src/test/resources/Features/Login.feature:10)\r\n",
-              "duration": 139935600,
+              "error_message": "org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 53358b860db76fdfe6f420376bd4e4aa\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat com.stepdef.StepDefinition.the_user_clicks_the_loginin_button(StepDefinition.java:38)\r\n\tat ✽.the user clicks the loginin button(src/test/resources/Features/Login.feature:10)\r\n",
+              "duration": 53212300,
               "status": "failed"
             },
             "line": 10,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 16400,
+              "duration": 7300,
               "status": "skipped"
             },
             "line": 11,
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 63900,
+              "duration": 44500,
               "status": "passed"
             },
             "line": 4,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 2005896400,
+              "duration": 763531900,
               "status": "passed"
             },
             "line": 5,
@@ -156,7 +156,7 @@
         "before": [
           {
             "result": {
-              "duration": 9996332100,
+              "duration": 8474862900,
               "status": "passed"
             },
             "match": {
@@ -171,7 +171,7 @@
         "after": [
           {
             "result": {
-              "duration": 644779700,
+              "duration": 644205300,
               "status": "passed"
             },
             "match": {
@@ -184,8 +184,9 @@
         "steps": [
           {
             "result": {
-              "duration": 192683300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login_email\"}\n  (Session info: chrome\u003d79.0.3945.130)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6da9da7cb0f53374150fa7b179c7bef6\n*** Element info: {Using\u003did, value\u003dlogin_email}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdef.StepDefinition.the_user_enters_and(StepDefinition.java:31)\r\n\tat ✽.the user enters \"kkavin@gmail.com\" and \"78945\"(src/test/resources/Features/Login.feature:9)\r\n",
+              "duration": 53251000,
+              "status": "failed"
             },
             "line": 9,
             "name": "the user enters \"kkavin@gmail.com\" and \"78945\"",
@@ -206,9 +207,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f567547ceba292121927c30bccabae74\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat com.stepdef.StepDefinition.the_user_clicks_the_loginin_button(StepDefinition.java:38)\r\n\tat ✽.the user clicks the loginin button(src/test/resources/Features/Login.feature:10)\r\n",
-              "duration": 47009200,
-              "status": "failed"
+              "duration": 6400,
+              "status": "skipped"
             },
             "line": 10,
             "name": "the user clicks the loginin button",
@@ -219,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 5000,
+              "duration": 4500,
               "status": "skipped"
             },
             "line": 11,
@@ -245,7 +245,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51500,
+              "duration": 68000,
               "status": "passed"
             },
             "line": 4,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 1344075200,
+              "duration": 1168609500,
               "status": "passed"
             },
             "line": 5,
@@ -273,7 +273,7 @@
         "before": [
           {
             "result": {
-              "duration": 8978293700,
+              "duration": 8515175700,
               "status": "passed"
             },
             "match": {
@@ -288,7 +288,7 @@
         "after": [
           {
             "result": {
-              "duration": 633899800,
+              "duration": 661897300,
               "status": "passed"
             },
             "match": {
@@ -301,9 +301,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login_email\"}\n  (Session info: chrome\u003d79.0.3945.130)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 25491b42affb2f4fd48caff2fe6b5c66\n*** Element info: {Using\u003did, value\u003dlogin_email}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdef.StepDefinition.the_user_enters_and(StepDefinition.java:31)\r\n\tat ✽.the user enters \"krthikeyan@gmail.com\" and \"7asdf\"(src/test/resources/Features/Login.feature:9)\r\n",
-              "duration": 73127500,
-              "status": "failed"
+              "duration": 191078300,
+              "status": "passed"
             },
             "line": 9,
             "name": "the user enters \"krthikeyan@gmail.com\" and \"7asdf\"",
@@ -324,8 +323,9 @@
           },
           {
             "result": {
-              "duration": 7100,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 3003d3167282333a338f76692c960995\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat com.stepdef.StepDefinition.the_user_clicks_the_loginin_button(StepDefinition.java:38)\r\n\tat ✽.the user clicks the loginin button(src/test/resources/Features/Login.feature:10)\r\n",
+              "duration": 47791900,
+              "status": "failed"
             },
             "line": 10,
             "name": "the user clicks the loginin button",
@@ -336,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 6400,
+              "duration": 4500,
               "status": "skipped"
             },
             "line": 11,
@@ -362,7 +362,7 @@
         "steps": [
           {
             "result": {
-              "duration": 84600,
+              "duration": 44900,
               "status": "passed"
             },
             "line": 4,
@@ -374,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 1705246400,
+              "duration": 1208348500,
               "status": "passed"
             },
             "line": 5,
@@ -390,7 +390,7 @@
         "before": [
           {
             "result": {
-              "duration": 9645257400,
+              "duration": 8443988900,
               "status": "passed"
             },
             "match": {
@@ -405,7 +405,7 @@
         "after": [
           {
             "result": {
-              "duration": 644815500,
+              "duration": 633855900,
               "status": "passed"
             },
             "match": {
@@ -418,7 +418,7 @@
         "steps": [
           {
             "result": {
-              "duration": 386075900,
+              "duration": 268694800,
               "status": "passed"
             },
             "line": 21,
@@ -438,7 +438,7 @@
           },
           {
             "result": {
-              "duration": 2744358700,
+              "duration": 1739288300,
               "status": "passed"
             },
             "line": 23,
@@ -450,7 +450,7 @@
           },
           {
             "result": {
-              "duration": 6691400,
+              "duration": 9148500,
               "status": "passed"
             },
             "line": 24,
