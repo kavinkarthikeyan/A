@@ -1,0 +1,478 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 95500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in Ourshopee webpage page",
+            "match": {
+              "location": "StepDefinition.the_user_should_be_in_Ourshopee_webpage_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2361851400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_signin_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11268629600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.BeforeExecutions()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Th verify the login with invalid credentials",
+        "description": "",
+        "id": "to-validate-login-functionality;th-verify-the-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 696019100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 409939300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters \"kk@gmail.com\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kk@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.the_user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50109}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 98406f8c634b518a0573f877ad206bfb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat com.stepdef.StepDefinition.the_user_clicks_the_loginin_button(StepDefinition.java:38)\r\n\tat ✽.the user clicks the loginin button(src/test/resources/Features/Login.feature:10)\r\n",
+              "duration": 139935600,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "the user clicks the loginin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_loginin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user navigate to the login attempr page",
+            "match": {
+              "location": "StepDefinition.the_user_navigate_to_the_login_attempr_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fun1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 63900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in Ourshopee webpage page",
+            "match": {
+              "location": "StepDefinition.the_user_should_be_in_Ourshopee_webpage_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2005896400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_signin_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9996332100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.BeforeExecutions()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Th verify the login with invalid credentials",
+        "description": "",
+        "id": "to-validate-login-functionality;th-verify-the-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 644779700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 192683300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters \"kkavin@gmail.com\" and \"78945\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kkavin@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"78945\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinition.the_user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f567547ceba292121927c30bccabae74\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat com.stepdef.StepDefinition.the_user_clicks_the_loginin_button(StepDefinition.java:38)\r\n\tat ✽.the user clicks the loginin button(src/test/resources/Features/Login.feature:10)\r\n",
+              "duration": 47009200,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "the user clicks the loginin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_loginin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user navigate to the login attempr page",
+            "match": {
+              "location": "StepDefinition.the_user_navigate_to_the_login_attempr_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fun1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 51500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in Ourshopee webpage page",
+            "match": {
+              "location": "StepDefinition.the_user_should_be_in_Ourshopee_webpage_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1344075200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_signin_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8978293700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.BeforeExecutions()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Th verify the login with invalid credentials",
+        "description": "",
+        "id": "to-validate-login-functionality;th-verify-the-login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 633899800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login_email\"}\n  (Session info: chrome\u003d79.0.3945.130)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 25491b42affb2f4fd48caff2fe6b5c66\n*** Element info: {Using\u003did, value\u003dlogin_email}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdef.StepDefinition.the_user_enters_and(StepDefinition.java:31)\r\n\tat ✽.the user enters \"krthikeyan@gmail.com\" and \"7asdf\"(src/test/resources/Features/Login.feature:9)\r\n",
+              "duration": 73127500,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the user enters \"krthikeyan@gmail.com\" and \"7asdf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"krthikeyan@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"7asdf\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.the_user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user clicks the loginin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_loginin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user navigate to the login attempr page",
+            "match": {
+              "location": "StepDefinition.the_user_navigate_to_the_login_attempr_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fun1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in Ourshopee webpage page",
+            "match": {
+              "location": "StepDefinition.the_user_should_be_in_Ourshopee_webpage_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1705246400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_signin_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9645257400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.BeforeExecutions()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "to verify login with valid credentials",
+        "description": "",
+        "id": "to-validate-login-functionality;to-verify-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 644815500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 386075900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user enters the username and password",
+            "match": {
+              "location": "StepDefinition.the_user_enters_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "karthikeyan.kavin@gmail.com",
+                  "12345678"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2744358700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks the loggin button",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_the_loggin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6691400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user logged in successfully",
+            "match": {
+              "location": "StepDefinition.the_user_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Fun2"
+          }
+        ]
+      }
+    ],
+    "name": "to validate login functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
